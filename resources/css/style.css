@@ -1,5 +1,11 @@
-/*----------COLOR :  #e67e22;
-----------*/
+/*----------COLOR :  #e67e22; ----------*/
+
+
+
+/*-----------------------------------*/
+        /*                 */
+/*-----------------------------------*/
+
 
 
 /*-----------------------------------*/
@@ -212,6 +218,18 @@ header{
     background-attachment: fixed;
     
 }
+/* 
+
+h1{
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 240%;
+    color: #fff;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: 300;
+    text-transform:uppercase;
+} */
 
 .hero-top-box{
     position: absolute;
@@ -219,6 +237,24 @@ header{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width: 500px) {
+    .hero-top-box{
+        width: 80%;
+    }
+    h1{
+        font-size: 150%;
+    }
+    .col{
+        width: 90%;
+        margin: 5%;
+    }
+    
+    .col.span-1-of-4{
+        width: 40%;
+        margin: 5%;
+    }
 }
 
 .logo{
